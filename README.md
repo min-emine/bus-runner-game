@@ -1,16 +1,20 @@
-# twod_game
+# 🚌 Bus Simulator (2D)
 
-A new Flutter project.
+A 2D mobile bus simulation and endless runner game built with **Flutter** and the **Flame Engine**. Experience realistic manual transmission and tilt-based steering!
 
-## Getting Started
+## ✨ Features
+* **Manual & Auto Transmission:** Play casually with auto-gear or take full control with a simulated clutch and manual gearbox.
+* **Dual Steering Modes:** Steer the bus by tilting your device (Accelerometer) or using the on-screen interactive steering wheel.
+* **Mandatory Bus Stops:** It's not just racing! You must slow down and completely stop at bus stops to pick up passengers.
+* **Bilingual Support:** Fully playable in both English and Turkish.
 
-This project is a starting point for a Flutter application.
+## 🎮 How to Play
+1. Download the latest `.apk` from the [Releases](../../releases) tab.
+2. Install it on your Android device.
+3. Go to settings in the Main Menu to adjust your preferred controls.
+4. Don't forget to press the clutch when shifting gears!
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+* **Framework:** [Flutter](https://flutter.dev/)
+* **Game Engine:** [Flame](https://flame-engine.org/)
+* **Sensors:** `sensors_plus` for accelerometer-based movement.
